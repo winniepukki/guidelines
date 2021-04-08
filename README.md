@@ -1,5 +1,7 @@
 # Winniepukki Guidelines
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/winniepukki/guidelines)
+
 Eslint plugin for PWA development. **Heads-up!** Use together with [Winniepukki Guardian](https://www.npmjs.com/package/eslint-config-winniepukki-guardian) for the best experience
 
 ## Installation
