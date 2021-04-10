@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-winniepukki-guidelines",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Eslint rules for PWA projects",
   "main": "lib/index.js",
   "scripts": {

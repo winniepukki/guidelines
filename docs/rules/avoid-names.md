@@ -4,5 +4,14 @@ Dedicated research has been performed on what namings should be avoided for the 
 
 ## Rule Details
 
-ESLint will replace inappropriate namings with the `magicTemp` that will be easier to look up in the code. Examples of **incorrect** namings for this rule:
+ESLint will replace inappropriate values with `magicTemp` that will be easier to look up in the code. Examples of **incorrect** values for this rule:
 `foo, bar, abc, value, temp, num`
+
+The rule takes an optional array of values
+
+### Examples of **correct** code for this rule
+```js
+'winniepukki-guidelines/avoid-names': ['x', 'y', 'z']
+```
+
+If no arguments are passed as options, the default values will be used
