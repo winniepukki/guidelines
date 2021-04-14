@@ -1,27 +1,25 @@
-# Class name must match the name of the file it is declared in. (derived-class-names)
+# Class name must match the name of the file it is declared in
 
 Expected class names for all files **other than components** are `name + prefix` (e.g. class inside of `CategoryPage.container.js` file must be called `CategoryPageContainer` and not otherwise).
 
 ## Rule Details
 
-Notice, that this rule is not applied to `component` postfix
+This rule takes no arguments.
 
-Examples of **incorrect** code for this rule:
-
-```js
-// in MyComponent.container.js
-class Abc { /** ... */ }
-
-// in Hello.component.js
-class HelloComponent { /** ... */ }
-```
-
-Examples of **correct** code for this rule:
-
+### Succeed
 ```js
 // in MyComponent.container.js
 class MyComponentContainer { /** ... */ }
 
 // in Hello.component.js
 class Hello { /** ... */ }
+```
+
+### Fail
+```js
+// in MyComponent.container.js
+class Abc { /** ... */ }
+
+// in Hello.component.js
+class HelloComponent { /** ... */ }
 ```
