@@ -41,4 +41,5 @@ Then configure the rules you want to use under the rules section:
 ## Supported rules
 - [avoid-names](https://github.com/winniepukki/guidelines/blob/main/docs/rules/avoid-names.md): Enforces a list of namings for developers to avoid
 - [derived-class-names](https://github.com/winniepukki/guidelines/blob/main/docs/rules/derived-class-names.md): Enforces class name to match the name of the file it is declared in
+- [file-structure](https://github.com/winniepukki/guidelines/blob/main/docs/rules/file-structure.md): Enforces file structure to be flat having certain postfixes and prohibit extending root directory src with custom folders
 - [use-license](https://github.com/winniepukki/guidelines/blob/main/docs/rules/use-license.md): Enforces files to begin with a given license comment
